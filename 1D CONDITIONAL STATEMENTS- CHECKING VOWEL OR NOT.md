@@ -1,31 +1,33 @@
-## Experiment No: 1d – Conditional Statements- Checking Vowel or not
+## Experiment No: 1d – Conditional Statements- Checking
 
 ## AIM  
-To Write a Python program to check whether the given character is a vowel or not using if..else statement
+To Write a Python program to print the account balance after withdrawal.
+savingsbalance=5000
 ## ALGORITHM  
-1. Begin the program.  
-2. Take a character input from the user
-3. Convert the character to lowercase
-4. Check if the lowercase character is one of the vowels: 'a', 'e', 'i', 'o', 'u'
-5. If it is a vowel, display "The given character is a vowel"
-6. Otherwise, display "The given character is NOT a vowel"
-4. Terminate the program.
+1. Start
+2. Set savingAmt = 5000
+3. Get input from the user for withdrawAmt (convert input to integer)
+4. Calculate bal = savingAmt - withdrawAmt
+5. If withdrawAmt > 5000, then:Print "Insufficient balance"
+6. Else:Print "Account Balance:" followed by bal
+7. End
 
 ## PROGRAM
 ```python
-# Reg.No-
-# Name-
-# Write your code here
+savingAmt=5000
+withdrawAmt=int(input())
+bal=savingAmt-withdrawAmt
 
-char = input("Enter a character: ")
-char_lower = char.lower()
-
-if char_lower in ['a', 'e', 'i', 'o', 'u']:
-    print("The given character is a vowel")
+if withdrawAmt>5000 :
+	print ("Insufficient balance")
 else:
-    print("The given character is NOT a vowel")
+    print("Account Balance:",bal)
+	
 ```
 
 ## OUTPUT
+![Screenshot 2025-04-26 143654](https://github.com/user-attachments/assets/f8bc7b9d-163a-444e-a4ee-a72988fc0ca1)
+
 
 ## RESULT
+Thus the python program to print the account balance after withdrawal has been implemented and executed successfully.
